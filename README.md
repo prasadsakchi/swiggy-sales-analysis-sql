@@ -15,7 +15,7 @@ This project analyzes Swiggy food delivery data to understand sales performance,
 
 ## Tools Used
 - SQL (Data Cleaning, Modeling, Analysis)
-- 
+  
 ## Data Cleaning & Validation
 - Checked for null and blank values in important columns  
 - Identified and removed duplicate records using `ROW_NUMBER()`  
