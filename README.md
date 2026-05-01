@@ -1,17 +1,16 @@
 # Swiggy Delivery & Restaurant Performance Analysis
 
 ## Problem Statement
-
-Food delivery platforms often face challenges such as delayed deliveries, inconsistent restaurant performance, and declining customer satisfaction.
-This project analyzes Swiggy order data to identify operational inefficiencies, delivery delays, and performance gaps to support better decision-making.
+Food delivery platforms generate large volumes of order data but often lack clear visibility into which restaurants drive demand, how orders are distributed across locations, and when peak demand occurs.
+This project analyzes Swiggy order data to uncover demand patterns, restaurant performance, and operational insights to support better decision-making.
 
 ## Objectives
 
-- Analyze restaurant performance and order distribution
-- Identify delivery inefficiencies across locations
+- Analyze restaurant performance and order volume
+- Identify high-demand locations and categories
 - Evaluate customer satisfaction using ratings
 - Detect peak demand periods
-- Provide actionable recommendations for improving operations
+- Provide actionable recommendations for operational planning
 
 ## Dataset
 
@@ -35,42 +34,33 @@ This project analyzes Swiggy order data to identify operational inefficiencies, 
 
 ## Data Cleaning
 
-- Handled missing values in ratings and delivery time
+- Handled missing and inconsistent values
 - Standardized restaurant and location names
-- Removed duplicate and inconsistent records
-- Ensured proper data formatting for analysis
+- Removed duplicate records
+- Ensured consistent data formatting for analysis
 
 ## Key Analysis
 
 ## Restaurant Performance
 - Ranked restaurants based on order volume and revenue
 - Identified top-performing restaurants using window functions
-
-## Delivery Efficiency
-
-- Calculated average delivery time across locations
-- Identified areas with consistently higher delivery delays
   
-## Customer Satisfaction
-
-- Analyzed relationship between delivery time and customer ratings
-- Evaluated how operational delays impact user experience
+## Category Analysis
+- Analyzed order distribution across different cuisines
+- Identified high-demand food categories
   
-## Demand Analysis
+## Demand Trends
 
 - Identified peak ordering periods
 - Analyzed high-demand restaurants and cuisines
 
 ## Key Insights
 
-- Longer delivery times are associated with lower customer ratings
 - A small number of restaurants contribute a large share of total orders
-- Certain locations consistently experience delivery delays
-- Peak demand periods create pressure on delivery operations
+- Certain cusisines consistently show higher demand than others
+- Peak demand periods highlight high operational demand windows
 
 ## Business Recommendations
-- Optimize Delivery Operations:
-  Improve logistics in high-delay areas to reduce delivery time
 - Demand-Based Resource Allocation:
   Increase delivery capacity during peak hours
 - Focus on High-Performing Restaurants:
