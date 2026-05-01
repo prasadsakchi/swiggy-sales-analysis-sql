@@ -1,4 +1,4 @@
-# Swiggy Performance & Delivery Analysis
+# Swiggy Performance & Demand Analysis
 
 ## Problem Statement
 Food delivery platforms generate large volumes of order data but often lack clear visibility into which restaurants drive demand, how orders are distributed across locations, and when peak demand occurs.
